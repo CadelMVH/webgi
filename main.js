@@ -54,7 +54,7 @@ async function init() {
   // await viewer.setEnvironmentMap('https://threejs.org/examples/textures/equirectangular/venice_sunset_1k.hdr', {});
 
   // Load a 3D model configured in the threepipe editor
-  const result = await viewer.load('https://github.com/CadelMVH/webgi/blob/main/N-N%2C.glb');
+  const result = await viewer.load('https://demo-assets.pixotronics.com/pixo/gltf/earringScene1.glb');
 
   // Configure plugin properties after loading the file
   const ground = viewer.getPlugin(ContactShadowGroundPlugin)
