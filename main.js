@@ -54,7 +54,7 @@ async function init() {
   // await viewer.setEnvironmentMap('https://threejs.org/examples/textures/equirectangular/venice_sunset_1k.hdr', {});
 
   // Load a 3D model configured in the threepipe editor
-  const result = await viewer.load('https://drive.google.com/file/d/18nS65I0YjvG3odnfzk05113uI9bv0z4W/view?usp=sharing');
+  const result = await viewer.load('https://github.com/CadelMVH/webgi/blob/main/N-N%2C.glb');
 
   // Configure plugin properties after loading the file
   const ground = viewer.getPlugin(ContactShadowGroundPlugin)
